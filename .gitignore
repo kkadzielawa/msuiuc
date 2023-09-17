@@ -1,2 +1,10 @@
 # ALL BUILD DIRS #
 build/
+
+#### TEX NOTES ####
+*.pdf
+*.aux
+*.log
+*.gz
+
+

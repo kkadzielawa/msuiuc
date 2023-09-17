@@ -1,0 +1,131 @@
+\documentclass{article}
+\usepackage{color}
+\usepackage[top=1in, bottom=1in, left=1in, right=1in]{geometry}
+\usepackage{amsmath}
+\usepackage[utf8]{inputenc}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{sansmath}
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+\usepackage{float}
+\usepackage{mathtools}
+
+\begin{document}
+
+\begin{itemize}
+	\item 
+\end{itemize}
+
+\section{Information}
+
+
+
+
+
+
+\section{Lectures}
+
+
+\subsection{C++ Introduction}
+
+\begin{itemize}
+	\item C++ is strongly-typed
+\end{itemize}
+
+
+
+\section{Readings}
+
+
+
+
+\section{Graded Activities}
+
+
+
+
+
+
+
+\iffalse
+
+\section{Initial Set Up}
+-install python
+-create dedicated virtual environment
+-install django
+
+\subsection{Install Python 3 on Windows}
+- install at least python 3.10
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.75]{fig1_1}
+	\caption {Check Python Version in CMD}
+\end{figure}
+
+
+\subsection{Virtual Environments}
+-by default python and django are installed \textit{globally} on the computer
+-what if two projects use two different Django versions?
+-you should use a dedicated virtual environment for each new Python project
+-simplest way is with \textbf{venv}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.75]{fig1_2}
+	\caption {Using venv}
+\end{figure}
+-.venv is a common choice for environment name
+-once created, you need to \textit{activate} the virtual environment using
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.75]{fig1_3}
+	\caption {Activating venv}
+\end{figure}
+- to deactivate, type \textit{deactivate} into CMD
+
+
+\subsection{Install Django}
+
+-activate virtual environment first
+-Django is hosted on PyPI - central repo for most python packages
+-use \textit{pip} to install it 
+-``\~=" ensures subsequent security updates are automatically installed
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.75]{fig1_4}
+	\caption {Installing Django}
+\end{figure}
+
+
+
+\subsection{First Django Project}
+- to create a new Django project use command
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.75]{fig1_5}
+	\caption {Starting Django Project}
+\end{figure}
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.75]{fig1_6}
+	\caption {Default Django Directory Structure}
+\end{figure}
+
+- you add . at the end to avoid the duplicate structure of project name being nested
+
+\subsection{Text Editors}
+- add python and black python formatter extensions
+
+
+\subsection{Install Git}
+\begin{figure}[H]
+	\centering
+	\includegraphics[scale=.75]{fig1_7}
+	\caption {One Time Git Configs}
+\end{figure}
+
+\fi
+
+\end{document}
+
