@@ -1,6 +1,9 @@
 # ALL BUILD DIRS #
 build/
 
+# ALL EXE
+*.exe
+
 #### TEX NOTES ####
 *.pdf
 *.aux
